@@ -5,13 +5,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-</head>
-<body>
   
+<style>
+/* Social media buttons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+</style>  
+</head>
+
+<body>
 <!-- Navigation Bar/Tab -->
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
   <ul class="nav nav-tabs">
@@ -25,17 +55,15 @@
       <a class="nav-link" href="#about">ABOUT</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="#booking">BOOKING</a>
+      <a class="nav-link" href="#booking">BOOKING</a>
     </li>
         <li class="nav-item">
-      <a class="nav-link disabled" href="#news">NEWS</a>
+      <a class="nav-link" href="#news">NEWS</a>
     </li>
   </ul>
   </nav>
-</div>
 
-
-
+<!-- HOME -->
 <div id="home" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
     <li data-target="#home" data-slide-to="0" class="active"></li>
@@ -47,21 +75,21 @@
       <img src="live1.jpg" alt="TOUR 2019" width="1100" height="500">
       <div class="carousel-caption">
         <h1>The Monkees</h1>
-        <p>TOUR 2019</p>
+        <p><h2>TOUR 2019</h2></p>
       </div>   
     </div>
     <div class="carousel-item">
       <img src="live2.jpg" alt="BOOKING" width="1100" height="500">
       <div class="carousel-caption">
         <h3>Book The Monkees NOW!</h3>
-        <p>Available For Private Events</p>
+        <p><h2>Available For Private Events</h2></p>
       </div>   
     </div>
     <div class="carousel-item">
       <img src="live3.jpg" alt="New York" width="1100" height="500">
       <div class="carousel-caption">
         <h3>50 years</h3>
-        <p>We still ROCK!</p>
+        <p><h2>We still ROCK!</h2></p>
       </div>   
     </div>
   </div>
@@ -73,7 +101,7 @@
   </a>
 </div>
 
-
+<!-- MUSIC -->
 <div class="container-fluid" id="music">
   <h1>MUSIC</h1>
   <div class="row">
@@ -98,9 +126,9 @@ Debut Single - Last Train to Clarksville (1966)<br>
   </div>
 </div>
 
-
+<!-- ABOUT MONKEES -->
 <div class="container-fluid" id="about">
-  <h1>About</h1>
+  <h1>ABOUT</h1>
   <p>The Monkees are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed. Their original line-up consisted of the American actor/musicians Micky Dolenz, Michael Nesmith, and Peter Tork with English actor/singer Davy Jones.</p>
   <div class="row">
   <div class="col" style="float:left;" "padding:5px;">
@@ -120,9 +148,132 @@ Debut Single - Last Train to Clarksville (1966)<br>
     <br> Peter
   </div>
 </div>
+
+
+<p><h3>Reunions and revivals</h3></p>
+<p>Good Times! and 50th anniversary: 2015–2017</p>
+<p>The Monkees Present: The Mike and Micky Show (2018-2019)</p>
+<p>Christmas Party(2018–2019)</p>
+<p></p>
+<p></p>
+<p></p>
+
+<!-- BOOK MONKEES FOR EVENTS -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container"id="booking">
+<h1>BOOKING</h1>
+<p>Celebrating your special events with The Monkees! We'll available for any Weddings and Christmas Parties!</p>
+
+<form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Lastname *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_need">Please specify your need *</label>
+                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                        <option value=""></option>
+                        <option value="Request quotation">Request quotation</option>
+                        <option value="Request order status">Request booking status</option>
+                        <option value="Request copy of an invoice">Request copy of an invoice</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Please add your message here" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
+            </div>
+        </div>
+        </div>
+    </div>
+
+</form>
+
+                </div>
+
+            </div>
+
+
+<div class="container-fluid" id="news">
+  <h1>NEWS</h1>
+<P><h2>TOUR 2019</h2></P>
+The Monkees may be coming to YOUR town very soon...<br>
+Check out these dates for Michael Nesmith, Micky Dolenz and The Monkees upcoming concerts<BR>
+The Monkees' Micky Dolenz & Mike Nesmith in New Zealand & Australia<br>
+
+<br>6/8/19-- Christchurch, New Zealand-- Isaac Theatre
+<br>GET TICKETS.<br> 
+6/9/19-- Auckland, New Zealand-- Great Hall<br>
+GET TICKETS.<br> 
+6/10/19-- Wellington, New Zealand-- Michael Fowler Centre <br>
+GET TICKETS. <br>
+6/12/19-- Brisbane, Australia-- QPAC<br>
+GET TICKETS. <br>
+6/15/19-- Melbourne, Australia-- Palais Theatre<br>
+GET TICKETS. <br>
+6/16/19-- Perth, Australia-- Astor Theatre <br>
+GET TICKETS. <br>
+6/18/19-- Sydney, Australia-- Sydney Opera House<br>
+GET TICKETS.<br>
+
+<p><b>VIP PACKAGES WITH EXCLUSIVE MERCHANDISE AVAILABLE FOR ALL DATES</b></p>
+
+
+ <h2>NOW PLAYING: THE MERRY MONKEES - 3 NEW VIDEOS</h2>
+<p>It's time to get merry with the Monkees! Check out three brand new videos for their soon-to-be classic Christmas tracks including the official music video for "The Christmas Song," produced, directed, and animated by Jonathan Nesmith and Susan Holloway.</p>
+<p><h3>THE CHRISTMAS SONG</h3></p>
+<iframe width="70%" height="auto" src="https://www.youtube.com/embed/05rUSARpr4g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p><iframe width="70%" height="auto" src="https://www.youtube.com/embed/zZfEFtSoWBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  <p><iframe width="70%" height="auto" src="https://www.youtube.com/embed/c9H6Xd1CSaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
 </div>
 
+<div class="jumbotron">
+<center><a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+</center>
 
+
+</div>
+
+     
 
 </body>
 </html>
