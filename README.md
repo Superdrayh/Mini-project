@@ -11,10 +11,10 @@ Simple and comprehensive design by containing core information and ensure to pro
 
 
 ## Technologies
-HTML
-CSS
-Bootstrap4.3.1.
-jquery
+- HTML
+- CSS
+- Bootstrap4.3.1.
+- jquery
 
 
 ## Testing
