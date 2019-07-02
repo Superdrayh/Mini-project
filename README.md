@@ -5,6 +5,7 @@ This is a project website targets The Monkees fans and potential fans to provide
 
 ## Demo
 A live demo can be found at http://yongheekam.epizy.com
+https://superdrayh.github.io/Mini-project/
 
 ## UX
 Simple and comprehensive design by containing core information and ensure to promote that The Monkees are still in business.
