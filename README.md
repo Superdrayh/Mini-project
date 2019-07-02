@@ -27,21 +27,21 @@ The live site is deployed on GitHub pages by using the master branch. It updates
 
 ## Credits
 ### Content
-Texts in "HOME" and "BOOKING" sections in the site were written by me. 
-Texts in "ABOUT" is excerpted from wikipedia, https://en.wikipedia.org/wiki/The_Monkees
-Texts in "NEWS" is excerpted from The Monkees official page, https://www.monkees.net/
+- Texts in "HOME" and "BOOKING" sections in the site were written by me. 
+- Texts in "ABOUT" is excerpted from wikipedia, https://en.wikipedia.org/wiki/The_Monkees
+- Texts in "NEWS" is excerpted from The Monkees official page, https://www.monkees.net/
 
 ### Media
-Photos for Carousel slides are from https://www.eventfinda.co.nz/artist/the-monkees
-Profile photos in ABOUT section and MUSIC are from https://github.com/Code-Institute-Org/project-assets
-Also 3 music files are from https://github.com/Code-Institute-Org/project-assets
+- Photos for Carousel slides are from https://www.eventfinda.co.nz/artist/the-monkees
+- Profile photos in ABOUT section and MUSIC are from https://github.com/Code-Institute-Org/project-assets
+- Also 3 music files are from https://github.com/Code-Institute-Org/project-assets
 
 ## Acknowledgements
-The Booking page contact form are modified after the following Bootstrapious:
+- The Booking page contact form are modified after the following Bootstrapious:
 https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form
-Navigation bar, Carousel slides are modified after the following w3schools boostrap4:
+- Navigation bar, Carousel slides are modified after the following w3schools boostrap4:
 https://www.w3schools.com/bootstrap4/default.asp
 
-Those were modified significantly to fit the styling, sizing.
+- Those were modified significantly to fit the styling, sizing.
 
 **This is for educational use.**
